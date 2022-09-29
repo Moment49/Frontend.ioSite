@@ -1,0 +1,65 @@
+body::before{
+    content: '';
+    display: block;
+    height: 60px;
+}
+
+@media (min-width:768px) {
+    .input_news{
+        width: 50%;
+    }
+    #instructor_push{
+        margin-bottom: 10rem !important;
+    }
+}
+/*Second*/
+#instruct_border{
+    border: 12px solid goldenrod;
+    scale: 1;
+    transition: all 0.5s ease-in-out;
+}
+#instruct_border:hover{
+    scale: 1.1;
+    border:12px solid goldenrod;
+    cursor: pointer;
+}
+/*First*/
+#instruct_border2{
+    border: 12px solid rgb(23, 23, 212);
+    scale: 1;
+    transition: all 0.5s ease-in-out;
+}
+#instruct_border2:hover{
+    scale: 1.1;
+    border:12px solid rgb(23, 23, 212);
+    cursor: pointer;   
+   
+}
+/*Third*/
+#instruct_border3{
+    border: 12px solid rgb(23, 23, 212);
+    scale: 1;
+    transition: all 0.5s ease-in-out;
+    
+}
+#instruct_border3:hover{
+    scale: 1.1;
+    border:12px solid rgb(23, 23, 212);
+    cursor: pointer;
+    
+}
+#Instructor_Img{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: -30%;
+}
+
+
+/*Meet Heading*/
+#meet::before{
+    content: "";
+    background-color: goldenrod;
+    height: 5px;
+    width: 70%;
+}
